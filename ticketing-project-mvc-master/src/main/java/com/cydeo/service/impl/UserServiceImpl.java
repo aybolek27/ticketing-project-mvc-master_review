@@ -5,9 +5,11 @@ import com.cydeo.dto.UserDTO;
 import com.cydeo.service.CrudService;
 import com.cydeo.service.RoleService;
 import com.cydeo.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UserServiceImpl extends AbstractMapService<String, UserDTO> implements UserService {
 
     @Override
